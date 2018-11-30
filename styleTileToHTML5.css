@@ -1,0 +1,121 @@
+/**
+ * file: styleTileToHtml5.css
+ * purpose: HiFi styles sample
+ * nb: remember to add your atoms
+ **/
+
+
+ body {
+   font-family: sans-serif;
+ }
+
+ /* article */
+ article {
+   display: block;
+   margin-bottom: 2rem;
+ }
+
+ /* section */
+
+ /* headers */
+ h1,h2,h3,h4,h5,h6 {
+  position: relative;
+  clear:both;
+  margin-top: 2.34rem;
+ }
+
+ /* header */
+ header {
+   padding: 2em;
+   color: #fff;
+   background: #4c024c;
+   display: block;
+   text-align: center;
+
+ }
+
+ header a {
+   color: #fff;
+   text-decoration: none;
+ }
+
+ header a:hover {
+   color: #3ea841;
+ }
+
+ header h2 {
+   color: #dedee0;
+ }
+
+ /* footer */
+ footer {
+   padding: 2em;
+   color: #fff;
+   background: #000;
+   display: block;
+   text-align: center;
+ }
+
+ /* lists, links etc */
+
+ /* colors */
+ .col1 {
+   width: 50px;
+   height: 50px;
+   border: 1px;
+   background-color: red;
+ }
+
+ .col2 {
+   width: 50px;
+   height: 50px;
+   border: 1px;
+   background-color: green;
+ }
+
+ .col3 {
+   width: 50px;
+   height: 50px;
+   border: 1px;
+   background-color: yellow;
+ }
+
+ .col4 {
+   width: 50px;
+   height: 50px;
+   border: 1px;
+   background-color: violet;
+ }
+
+ .col5 {
+   width: 50px;
+   height: 50px;
+   border: 1px;
+   background-color: orange;
+ }
+
+ /* textures */
+
+ /* images */
+
+ /* forms and buttons */
+
+   /* MWR buttons */
+   .mwr1 {
+     background-color: #f49a13;
+     width: 4rem;
+     height: 4rem;
+     border-radius: 50%;
+   }
+   .mwr1:hover {
+     background-color: #17f413;
+   }
+
+/* Helpers, info, feedback */
+.info {
+  background-color: #24dfe2;
+  padding: 2em;
+  margin: 2em;
+}
+
+ /* responsive styles, grid etc */
